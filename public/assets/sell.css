@@ -1,0 +1,67 @@
+#sell {
+  display: flex;
+  padding: 4rem;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.sell-mid {
+  width: 60%;
+}
+
+.box {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 5px;
+}
+
+button[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+#companies {
+  clear: both;
+  padding-top: 20px;
+}
+
+#companies ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#companies li {
+  margin-bottom: 10px;
+}
+
+#companies {
+  background: #ffebeb;
+  border-radius: 1rem;
+  padding: 2rem;
+  width: 50%;
+}
